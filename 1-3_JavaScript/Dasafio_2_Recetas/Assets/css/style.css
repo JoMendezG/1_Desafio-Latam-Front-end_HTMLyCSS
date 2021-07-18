@@ -1,0 +1,100 @@
+body {
+    font-size: 18px;
+}
+
+p {
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 1.875rem;
+}
+
+
+
+.container-fluid {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.divisorTitulo {
+    background-color: black;
+    width: 100%;
+    height: 2px;
+}
+
+ul {
+    list-style: none;
+}
+
+.txtRojo {
+    padding-top: 100px;
+}
+
+button.btn.btn-outline-light {
+    margin-bottom: 100px;
+}
+
+.logoWeb {
+    color: white;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+h3.logoWeb {
+    color: white;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+h3.tituloPizza {
+    font-size: 1remrem;
+}
+
+
+
+@media screen and (max-width:576px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    section.caruselSuperior {
+        display: none;
+    }
+
+    .container-fluid {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    h3.TituloPizza.mt-5.display-1 {
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+    } 
+
+    #detallesRecetas {
+        text-align: center;
+    }
+
+    #miAlerta {
+        display: inline-block;
+        float: left;
+        width: 48%;
+    }
+
+    #miTooltip {
+        display: inline-block;
+        float: right;
+        width: 50%;
+        margin-left: 0px !important;
+    }
+}
+
+
+@media screen and (max-width:2030px) {
+    h3.TituloPizza {
+        font-size: 45px;
+    }
+}
